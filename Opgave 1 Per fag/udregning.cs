@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 /*
 namespace Opgave_1_Per_fag
 {
+    Random commentar
     class Udregning
     {
         public int Antal_mont;
