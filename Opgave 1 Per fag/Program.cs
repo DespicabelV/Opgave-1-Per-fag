@@ -10,7 +10,6 @@ namespace Opgave_1_Per_fag
     {
         static void Main(string[] args)
         {
-            //Random Commentar
             string pris_str, betaling_str;
             int pris, betaling;
             int tilbage_betal;
