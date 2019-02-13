@@ -23,9 +23,9 @@ namespace Opgave_1_Per_fag
             betaling_str = Console.ReadLine();
             betaling = Convert.ToInt32(betaling_str);
 
-            tilbage_betal = pris - betaling;
+            tilbage_betal = betaling - pris;
 
-            if (pris < betaling)
+            if (pris > betaling)
             {
                 Console.WriteLine("Det er vist ikke nok betaling");
             }
