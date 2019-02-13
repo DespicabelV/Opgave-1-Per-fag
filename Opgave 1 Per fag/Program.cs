@@ -10,18 +10,15 @@ namespace Opgave_1_Per_fag
     {
         static void Main(string[] args)
         {
-            string pris_str, betaling_str;
             int pris, betaling;
             int tilbage_betal;
             int tyver, tier, femer, toer, ener;
 
             Console.WriteLine("Hvad er prisen i hele tal?");
-            pris_str = Console.ReadLine();
-            pris = Convert.ToInt32(pris_str);
+            pris = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Hvad betaler du med i hele tal?");
-            betaling_str = Console.ReadLine();
-            betaling = Convert.ToInt32(betaling_str);
+            betaling = int.Parse(Console.ReadLine());
 
             tilbage_betal = betaling - pris;
 
